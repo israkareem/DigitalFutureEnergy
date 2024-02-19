@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
+@import "../../CommonColors.css";
+
+.background {
+  width: 1400px;
+  height: 832px;
+  margin: 2px 0 0;
+  padding: 15px 0 70px;
+}
+
+.Image {
+  width: 320px;
+  height: 520px;
+  margin: 7% 3% 0% 10%;
+  margin-left: 8%;
+
+  /* border-radius: 1px; */
+}
+
+.pic {
+  width: 19%;
+  height: 28%;
+  margin: 0% 20% 3% 0%;
+  /* border-radius: 14px; */
+  /*up right down3 right if u make more*/
+}
+
+.power {
+  width: 13%;
+  margin: 0% 13% 6.9% -49%;
+}
+
+.cloud {
+  width: 23%;
+  margin: 0% 0% 30% 25%;
+
+  /* margin-right: 2px;
+    margin-top: 10%; */
+  /* position: relative; */
+  /* right: 40%; */
+}
+
+.text {
+  /* width: 66px;
+  height: 36px; */
+  /* flex-grow: 0; */
+  font-family: "Rajdhani", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  /* font-stretch: normal;
+  font-style: normal; */
+  /* line-height: 1.21; */
+  /* letter-spacing: normal; */
+  /* text-align: left; */
+  color: #202636;
+  width: 35%;
+  margin-top: -40%;
+  /* margin-top: 2%; */
+  left: 35%;
+  position: relative;
+}
+
+button {
+  width: 171px;
+  height: 40px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  border: none;
+  outline: none;
+  color: var(--color-blue);
+}
+
+.span {
+  width: 50px;
+  height: 31px;
+  flex-grow: 0;
+  font-family: Rajdhani;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.arrow {
+  width: 15%;
+}
+
+.p {
+  color: #737b8f;
+  width: 28.7%;
+  margin-top: 1.5%;
+  font-size: 15px;
+  left: 58%;
+  position: relative;
+  line-height: 1.8;
+}
+
+.topLeftPartBtn {
+  width: 171px;
+  height: 40px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  left: 35.5%;
+  margin-top: -2%;
+  position: relative;
+}
+
+.topLeftPartBtnText {
+  color: var(--color-blue);
+  font-size: 15px;
+  font-weight: 500;
+}
